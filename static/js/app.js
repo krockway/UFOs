@@ -25,10 +25,9 @@ function buildTable(data) {
 
 function handleClick(){
     // Find the 1st element that matches #datetime & store it in "date" variable
-    let date = d3.select(#datetime).property("value");
+    let date = d3.select("#datetime").property("value");
     //Set variable to default filter (aka no filter, just the raw data)
     let filteredData = tableData;
-}
 
     // Check if a date was entered & filter based on that date
     if (date) {
